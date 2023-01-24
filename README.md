@@ -8,3 +8,5 @@ crash.log и crash.*.log - для игнорирования файлов жур
 *.tfvars и *.tfvars.json - для исключения файлов переменных. Как следует из комментария автора, они могут содержать конфиденциальную информацию.
 override.tf, override.tf.json, *_override.tf и *_override.tf.json - для исключения файлов переопределения ресурсов terraform.
 .terraformrc и terraform.rc - позволит игнорировать файлы конфигурации интерфейса командной строки.
+
+Baldin fixed this file
